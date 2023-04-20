@@ -73,7 +73,7 @@ values	(1,1),
 select*from roles_salary;
 select*from roles;
 select*from salary;
-
+ -- Below code (should return an error message) checks if created relationshions between tables were made successfully
 insert into roles_salary (role_id,salary_id) 
 values	(10,4);
 
