@@ -42,6 +42,18 @@ select person.person_name, person.city_id, city.title, city.id from
 person left join city
 on person.city_id = City.id;
 
+select person.person_name, person.city_id, city.title, city.id from
+person right join city
+on person.city_id = City.id;
+
+select person.person_name, person.city_id, city.title, city.id from
+person full outer join city
+on person.city_id = City.id;
+
+select person.person_name, person.city_id, city.title, city.id from
+person , city; --cross join (,)
+
+
 
 
 
